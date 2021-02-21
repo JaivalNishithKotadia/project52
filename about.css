@@ -1,0 +1,41 @@
+body{
+   background-image: url("img.jpg");
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 50px;
+    font-style: italic;
+    color: whitesmoke;
+}
+img{
+    
+    border: 5px solid black;
+    border-radius: 30px;
+    
+}
+.parentsocial{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.insta{
+    position: relative;
+
+
+    transform: scale(0.6);
+}
+.face{
+    position: relative;
+    transform: scale(0.6);
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+.youtube{
+    position: relative;
+    transform: scale(1);
+    
+}
